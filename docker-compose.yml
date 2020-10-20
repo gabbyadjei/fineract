@@ -58,7 +58,7 @@ services:
 
   # Frontend service
   community-app:
-    image: openmf/community-app:latest
+    image: gabbyadjei/community-app:latest
     container_name: mifos-ui
     restart: always
     ports:
